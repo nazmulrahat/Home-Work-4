@@ -6,9 +6,9 @@
     <title>BatchBox</title>
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="flex flex-col mx-auto"> 
+<body class="flex flex-col max-w-[1440px] mx-auto"> 
 
-    <header class="w-full bg-white lg:w-[1440px] border sticky top-0 border-[#D5E2D9] mx-auto h-[81.38px] flex items-center px-16 py4  justify-between">
+    <header class="w-full bg-white lg:w-[1440px] border sticky top-0 border-[#D5E2D9] mx-auto h-[81.38px] flex items-center px-16 py-4  justify-between z-20">
 
 <img class="w-40" src="/Logo-nav.png" alt="">
 <ul class="hidden sm:flex justify-between  gap-6 items-center ">
@@ -42,9 +42,8 @@
 
 
 
-<main class="h-[2000px]">
+<main class="">
 
-<!-- Hero section -->
     <section class="flex flex-col items-center gap-[32px]  text-center">
 <h1 class="text-[32px] sm:text-[80px]">Your favorites. One  <br>
 campus drop.</h1>
@@ -59,7 +58,7 @@ one scheduled delivery to your campus drop zone.</p>
         <p class="text-2xl text-[#1D8649] font-semibold">Los Altos High School</p>
     </div>
     <div class="flex">
-        <button class="w-[85px] text-[#5E6E66] h-6 px-2 py-1 flex gap-1 items-center rounded bg-[#D5E2D9]"> <span><img class="w-3 h-3" src="/star.png" alt=""></span>Default</button>
+        <button class="w-[85px] text-[#5E6E66] h-6 px-2 py-1 flex gap-1 items-center rounded bg-[#D5E2D9] cursor-pointer"> <span><img class="w-3 h-3" src="/star.png" alt=""></span>Default</button>
 
     </div>
     <img src="/Down.png" alt="">
@@ -83,8 +82,1156 @@ one scheduled delivery to your campus drop zone.</p>
 
     </section>
 
-    <!-- Hero section end -->
 
+
+  <section class=" bg-[#f7faf8] px-4 sm:px-6 lg:px-8 py-8 overflow-hidden">
+
+    <div class="max-w-[1440px] mx-auto">
+
+      <div class="flex flex-col lg:flex-row justify-between gap-8 mb-7">
+
+        <div>
+
+          <div class="flex items-center gap-2 mb-5">
+
+            <div class="w-5 h-5 rounded-full border border-[#238653] flex items-center justify-center">
+              <div class="w-1.5 h-1.5 bg-[#238653] rotate-45"></div>
+            </div>
+
+            <p class="text-[10px] sm:text-xs text-[#4d5d56] uppercase">
+              YOUR CURRENT SELECTED CAMPUS
+              <span class="font-semibold text-[#08743d]">
+                "LOS ALTOS HIGH SCHOOL"
+              </span>
+            </p>
+
+          </div>
+
+
+          <h1 class="text-[40px] sm:text-[46px] lg:text-[50px] leading-[1.05] font-serif font-semibold text-[#06472e]">
+
+            What’s in your
+            <br>
+
+            <span class="text-[#16834b]">
+              next batch?
+            </span>
+
+          </h1>
+
+
+          <p class="text-sm text-[#64736d] mt-5">
+            Choose a day, check the pickup window, then explore the stores.
+          </p>
+
+        </div>
+
+
+        <div class="w-full lg:w-[275px] lg:mt-12">
+
+          <div class="relative border border-[#2c9660] rounded-lg bg-white px-3 py-2.5 shadow-sm">
+
+            <div class="flex items-center justify-between">
+
+              <div class="flex items-center gap-3">
+
+                <div class="w-8 h-8 rounded-full bg-[#18864d] text-white flex items-center justify-center">
+                  <span class="text-sm">
+                    
+                  </span>
+                </div>
+
+
+                <div>
+
+                  <p class="text-[10px] text-[#68756f] uppercase">
+                    SWITCH YOUR CAMPUS
+                  </p>
+
+                  <p class="text-sm font-semibold text-[#08743d]">
+                    Los Altos High School
+                  </p>
+
+                </div>
+
+              </div>
+
+
+              <div class="flex items-center gap-2">
+
+                <span class="hidden sm:block text-[8px] bg-[#e5f2e9] text-[#477151] px-1.5 py-0.5 rounded">
+                  ★ Default
+                </span>
+
+                <span class="text-[#16834b]">
+                  ⌄
+                </span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <p class="text-[9px] text-[#69756f] mt-2">
+            ⓘ This is your default campus. You can change it anytime.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="relative bg-[#f0f4f1] rounded-xl p-2 flex items-center gap-2 mb-5">
+
+        <button class="shrink-0 w-8 h-8 rounded-full bg-[#b8bcb9] text-white flex items-center justify-center cursor-pointer">
+          ‹
+        </button>
+
+
+        <div class="grid grid-cols-2 sm:grid-cols-4 flex-1 gap-1 sm:gap-2">
+
+
+          <div class="bg-white border border-[#dce5df] rounded-lg py-2 px-2 text-center shadow-sm">
+
+            <p class="text-[8px] text-[#8b928f]">
+              Open for orders
+            </p>
+
+            <p class="text-[10px] sm:text-xs font-medium text-[#16834b] mt-0.5">
+              Tue, Oct 20
+            </p>
+
+          </div>
+
+
+          <div class="py-2 text-center hidden sm:block">
+
+            <p class="text-[8px] text-[#8b928f]">
+              Upcoming
+            </p>
+
+            <p class="text-[10px] sm:text-xs text-[#27352f] mt-0.5">
+              Wed, Oct 21
+            </p>
+
+          </div>
+
+
+          <div class="py-2 text-center hidden sm:block">
+
+            <p class="text-[8px] text-[#8b928f]">
+              Upcoming
+            </p>
+
+            <p class="text-[10px] sm:text-xs text-[#27352f] mt-0.5">
+              Thu, Oct 22
+            </p>
+
+          </div>
+
+
+          <div class="py-2 text-center">
+
+            <p class="text-[8px] text-[#8b928f]">
+              Upcoming
+            </p>
+
+            <p class="text-[10px] sm:text-xs text-[#27352f] mt-0.5">
+              Fri, Oct 23
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <button class="shrink-0 w-8 h-8 rounded-full bg-white border border-[#dce1dd] text-[#53605a] flex items-center justify-center cursor-pointer">
+          ›
+        </button>
+
+      </div>
+
+
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+
+
+        <div class="relative bg-white border border-[#dce5df] rounded-2xl p-4 sm:p-5 shadow-sm">
+
+
+          <div class="absolute top-0 right-0 w-24 h-24 bg-[#edf8f1] rounded-tr-2xl pointer-events-none">
+          </div>
+
+
+          <div class="relative flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4">
+
+            <div class="flex items-center gap-2">
+
+              <span class="text-[9px] bg-[#e9f8ee] text-[#17834a] px-2 py-1 rounded-full">
+                ✓ Open for orders
+              </span>
+
+              <span class="text-[9px] text-[#7c8782]">
+                Tue, Oct 20
+              </span>
+
+            </div>
+
+
+            <div class="flex gap-1.5">
+
+              <button class="border border-[#bfc9c3] rounded-md px-2 py-1 text-[9px] text-[#34423b] cursor-pointer">
+                ⧉ Copy Link
+              </button>
+
+              <button class="bg-[#18864d] text-white rounded-md px-2 py-1 text-[9px] cursor-pointer">
+                ↗ Share
+              </button>
+
+            </div>
+
+          </div>
+
+
+          <h2 class="text-[15px] font-semibold text-[#1d3028] mb-4">
+            Afternoon snacks & drinks
+          </h2>
+
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pb-4 border-b border-[#dfe6e1]">
+
+
+            <div>
+
+              <div class="flex items-center gap-1.5 mb-1">
+
+                <span class="text-[#16834b] text-xs">
+                  
+                </span>
+
+                <p class="text-[8px] text-[#68756f] uppercase">
+                  ORDER BEFORE
+                </p>
+
+              </div>
+
+              <p class="text-[10px] text-[#39473f]">
+                Tue, Oct 20, 1:00 PM
+              </p>
+
+            </div>
+
+
+            <div>
+
+              <div class="flex items-center gap-1.5 mb-1">
+
+                <span class="text-[#16834b] text-xs">
+                  
+                </span>
+
+                <p class="text-[8px] text-[#68756f] uppercase">
+                  EXPECTED PICKUP
+                </p>
+
+              </div>
+
+              <p class="text-[10px] text-[#39473f]">
+                3:40–3:50 PM
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-3">
+
+
+            <div>
+
+              <p class="text-[8px] text-[#68756f] uppercase mb-2">
+                  PICKUP POINT
+              </p>
+
+              <p class="text-[10px] text-[#3f5047] underline">
+                  The Almond Drop
+              </p>
+
+            </div>
+
+
+            <div class="bg-[#f1f7f3] rounded-xl p-2.5">
+
+              <p class="text-[8px] text-[#68756f]">
+                Your Courier
+              </p>
+
+              <p class="text-[10px] text-[#405047] mt-1">
+                William
+              </p>
+
+              <p class="text-[8px] text-[#9aa49f] mt-0.5">
+                Blue Tesla Model X
+              </p>
+
+              <p class="text-[8px] text-[#9aa49f]">
+                License Plate: ***318
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="mt-4">
+
+            <p class="text-[8px] text-[#68756f] mb-2">
+              Available Stores
+            </p>
+
+
+            <div class="flex flex-wrap gap-2">
+
+              <button class="bg-[#686a69] text-white text-[8px] rounded-md px-2.5 py-1.5 cursor-pointer">
+                 Umé Tea  →
+              </button>
+
+              <button class="bg-[#686a69] text-white text-[8px] rounded-md px-2.5 py-1.5 cursor-pointer">
+                 Pokeworks  →
+              </button>
+
+              <button class="bg-[#686a69] text-white text-[8px] rounded-md px-2.5 py-1.5 cursor-pointer">
+                 Bonchon  →
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="relative bg-white border border-[#dce5df] rounded-2xl p-4 sm:p-5 shadow-sm">
+
+
+          <div class="absolute top-0 right-0 w-24 h-24 bg-[#f5f8f6] rounded-tr-2xl pointer-events-none">
+          </div>
+
+
+          <div class="relative flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4">
+
+            <div class="flex items-center gap-2">
+
+              <span class="text-[9px] bg-[#fff6e9] text-[#dc8b26] px-2 py-1 rounded-full">
+                • Upcoming
+              </span>
+
+              <span class="text-[9px] text-[#7c8782]">
+                Tue, Oct 20
+              </span>
+
+            </div>
+
+
+            <div class="flex gap-1.5">
+
+              <button class="border border-[#bfc9c3] rounded-md px-2 py-1 text-[9px] text-[#34423b] cursor-pointer">
+                ⧉ Copy Link
+              </button>
+
+              <button class="bg-[#18864d] text-white rounded-md px-2 py-1 text-[9px] cursor-pointer">
+                ↗ Share
+              </button>
+
+            </div>
+
+          </div>
+
+
+          <h2 class="text-[15px] font-semibold text-[#1d3028] mb-4">
+            Your next campus batch
+          </h2>
+
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pb-4 border-b border-[#dfe6e1]">
+
+
+            <div>
+
+              <div class="flex items-center gap-1.5 mb-1">
+
+                <span class="text-[#16834b] text-xs">
+                  
+                </span>
+
+                <p class="text-[8px] text-[#68756f] uppercase">
+                  ORDER BEFORE
+                </p>
+
+              </div>
+
+              <p class="text-[10px] text-[#39473f]">
+                Tue, Oct 20, 2:00 PM
+              </p>
+
+            </div>
+
+
+            <div>
+
+              <div class="flex items-center gap-1.5 mb-1">
+
+                <span class="text-[#16834b] text-xs">
+                  
+                </span>
+
+                <p class="text-[8px] text-[#68756f] uppercase">
+                  EXPECTED PICKUP
+                </p>
+
+              </div>
+
+              <p class="text-[10px] text-[#39473f]">
+                3:46–4:00 PM
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-3">
+
+
+            <div>
+
+              <p class="text-[8px] text-[#68756f] uppercase mb-2">
+                 PICKUP POINT
+              </p>
+
+              <p class="text-[10px] text-[#3f5047] underline">
+                  The Almond Drop
+              </p>
+
+            </div>
+
+
+            <div class="bg-[#f1f7f3] rounded-xl p-2.5">
+
+              <p class="text-[8px] text-[#68756f]">
+                Your Courier
+              </p>
+
+              <p class="text-[10px] text-[#405047] mt-1">
+                William
+              </p>
+
+              <p class="text-[8px] text-[#9aa49f] mt-0.5">
+                Blue Tesla Model X
+              </p>
+
+              <p class="text-[8px] text-[#9aa49f]">
+                License Plate: ***318
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="mt-4">
+
+            <p class="text-[8px] text-[#68756f] mb-2">
+              Available Stores
+            </p>
+
+
+            <div class="flex flex-wrap gap-2">
+
+              <button class="bg-[#686a69] text-white text-[8px] rounded-md px-2.5 py-1.5 cursor-pointer">
+                 In-N-Out Burger  →
+              </button>
+
+              <button class="bg-[#686a69] text-white text-[8px] rounded-md px-2.5 py-1.5 cursor-pointer">
+                 Boba Bliss  →
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <p class="text-[9px] text-[#7b8580] mt-5">
+        Times are shown in campus local time. Pickup windows are estimates and may change.
+      </p>
+
+    </div>
+
+  </section>
+
+
+
+
+
+
+<section class="relative w-full bg-white py-12 sm:py-16 lg:py-20 overflow-hidden">
+
+  <div class="max-w-[1200px] mx-auto px-5 sm:px-8">
+
+    <div class="text-center">
+
+      <div class="flex items-center justify-center gap-2 mb-4">
+        <div class="w-5 h-5 rounded-full border border-[#7b8982] flex items-center justify-center">
+          <div class="w-1.5 h-1.5 bg-[#16834b] rotate-45"></div>
+        </div>
+
+        <p class="text-[9px] sm:text-[10px] text-[#34443d] font-medium">
+          GOOD FOOD, CLOSE TO CAMPUS
+        </p>
+      </div>
+
+
+      <h2 class="text-[38px] sm:text-[46px] lg:text-[50px] leading-[1.05] font-serif font-semibold text-[#06472e]">
+        Local favorites.
+        <br>
+        <span class="text-[#16834b]">
+          More possibilities.
+        </span>
+      </h2>
+
+
+      <p class="text-xs sm:text-sm text-[#6c7872] mt-5">
+        Some of the local spots featured on BatchBox.
+      </p>
+
+    </div>
+
+
+    <!-- Store Cards -->
+    <div class="relative mt-10 sm:mt-12">
+
+      <button class="absolute left-[-5px] sm:left-[-18px] lg:left-[-34px] top-1/2 -translate-y-1/2 z-10 w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-[#b4b7b5] text-white text-xs flex items-center justify-center shadow-sm cursor-pointer">
+        ‹
+      </button>
+
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+
+        <div class="group relative h-[185px] sm:h-[187px] rounded-xl border border-[#dce7e1] bg-[#f8fbf9] overflow-hidden">
+
+          <img class="h-[125px] w-full object-cover " src="/111.png" alt="">
+
+          <div class="absolute bottom-0 left-0 right-0 p-2.5 sm:p-3">
+
+            <div class="flex items-center justify-between gap-2">
+
+              <div>
+                <h3 class="text-[12px] sm:text-[13px] font-serif text-[#30453b]">
+                  UMe
+                </h3>
+
+                <p class="text-[9px] sm:text-[10px] text-[#63716a] mt-1">
+                  Boba & Signature Yogurt Drinks
+                </p>
+              </div>
+
+              <button class="shrink-0 w-6 h-6 rounded-md border border-[#2a9a62] text-[#16834b] flex items-center justify-center text-xs cursor-pointer">
+                ↗
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="group relative h-[185px] sm:h-[187px] rounded-xl border border-[#dce7e1] bg-[#f8fbf9] overflow-hidden">
+
+             <img class="h-[125px] w-full object-cover " src="/222.png" alt="">
+
+          <div class="absolute bottom-0 left-0 right-0 p-2.5 sm:p-3">
+
+            <div class="flex items-center justify-between gap-2">
+
+              <div>
+                <h3 class="text-[12px] sm:text-[13px] font-serif text-[#30453b]">
+                  Alexander’s Patisserie
+                </h3>
+
+                <p class="text-[9px] sm:text-[10px] text-[#63716a] mt-1">
+                  Fine Pastries & Coffee
+                </p>
+              </div>
+
+              <button class="shrink-0 w-6 h-6 rounded-md border border-[#2a9a62] text-[#16834b] flex items-center justify-center text-xs cursor-pointer">
+                ↗
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="group relative h-[185px] sm:h-[187px] rounded-xl border border-[#dce7e1] bg-[#f8fbf9] overflow-hidden">
+
+            <img class="h-[125px] w-full object-cover " src="/333.png" alt="">
+
+          <div class="absolute bottom-0 left-0 right-0 p-2.5 sm:p-3">
+
+            <div class="flex items-center justify-between gap-2">
+
+              <div>
+                <h3 class="text-[12px] sm:text-[13px] font-serif text-[#30453b]">
+                  Paris Baguette
+                </h3>
+
+                <p class="text-[9px] sm:text-[10px] text-[#63716a] mt-1">
+                  Pastries & Bakery
+                </p>
+              </div>
+
+              <button class="shrink-0 w-6 h-6 rounded-md border border-[#2a9a62] text-[#16834b] flex items-center justify-center text-xs cursor-pointer">
+                ↗
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="group relative h-[185px] sm:h-[187px] rounded-xl border border-[#dce7e1] bg-[#f8fbf9] overflow-hidden">
+
+           <img class="h-[125px] w-full object-cover " src="/444.png" alt="">
+
+          <div class="absolute bottom-0 left-0 right-0 p-2.5 sm:p-3">
+
+            <div class="flex items-center justify-between gap-2">
+
+              <div>
+                <h3 class="text-[12px] sm:text-[13px] font-serif text-[#30453b]">
+                  Teaspoon
+                </h3>
+
+                <p class="text-[9px] sm:text-[10px] text-[#63716a] mt-1">
+                  Chipotle · Pokeworks
+                </p>
+              </div>
+
+              <button class="shrink-0 w-6 h-6 rounded-md border border-[#2a9a62] text-[#16834b] flex items-center justify-center text-xs cursor-pointer">
+                ↗
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <button class="absolute right-[-5px] sm:right-[-18px] lg:right-[-34px] top-1/2 -translate-y-1/2 z-10 w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-white border border-[#dce3df] text-[#53605a] text-xs flex items-center justify-center shadow-sm cursor-pointer">
+        ›
+      </button>
+
+    </div>
+
+
+    <div class="flex justify-center mt-9 sm:mt-10">
+
+      <button class="bg-[#19884e] text-white text-[9px] sm:text-[10px] px-4 py-2 rounded-md flex items-center gap-2 shadow-sm cursor-pointer">
+
+        See All Available Stores
+
+        <span class="w-3.5 h-3.5 rounded-full border border-white flex items-center justify-center text-[7px]">
+          ↗
+        </span>
+
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
+
+
+
+<section class="bg-[#f7faf8] px-6 py-12 md:px-12 lg:px-20 lg:py-16">
+  <div class="grid items-start gap-10 lg:grid-cols-2">
+    
+    <div>
+      <div class="mb-5 flex items-center gap-2 text-[10px] font-medium text-gray-700">
+        <span class="flex h-6 w-6 items-center justify-center rounded-full border border-gray-400 text-green-700">
+          ✦
+        </span>
+        CAMPUS FOOD DELIVERY, MADE SIMPLE
+      </div>
+
+      <h2 class="font-serif text-4xl font-semibold leading-tight text-[#075c32] md:text-5xl">
+        Order your favorites.<br>
+        Pick up with ease.
+      </h2>
+    </div>
+
+    <div class="lg:pt-8 lg:pl-20">
+      <p class="mb-4 max-w-xs text-sm leading-relaxed text-gray-500">
+        Your order joins a scheduled campus batch. Here is what to expect.
+      </p>
+
+      <button
+        class="rounded-md bg-[#168844] px-5 py-2.5 text-xs font-medium text-white cursor-pointer"
+      >
+        See available batches ⊙
+      </button>
+    </div>
+  </div>
+
+  <div class="relative mt-14 grid gap-12 md:grid-cols-3 md:gap-8">
+    
+   
+    <img class="absolute top-12 left-[15%] right-[15%] hidden  md:block" src="/dot.png" alt="">
+      
+
+    <div class="relative z-10 text-center">
+      <div class="mx-auto mb-7 flex h-24 w-24 items-center justify-center rounded-full bg-white text-4xl text-[#168844] shadow-sm">
+       <img src="/school.png" alt="">
+      </div>
+
+      <h3 class="mb-2 text-lg font-semibold text-gray-900">
+        Choose your campus
+      </h3>
+
+      <p class="mx-auto max-w-[220px] text-xs leading-relaxed text-gray-500">
+        Explore available food and delivery batches for your campus.
+      </p>
+    </div>
+ <img class="absolute   right-[15%] hidden  md:block" src="/dot2.png" alt="">
+    <div class="relative z-10 text-center">
+        
+     <div class="mx-auto mb-7 flex h-24 w-24 items-center justify-center rounded-full bg-white text-4xl text-[#168844] shadow-sm">
+       <img src="/basket.png" alt="">
+      </div>
+
+      <h3 class="mb-2 text-lg font-semibold text-gray-900">
+        Place your order
+      </h3>
+
+      <p class="mx-auto max-w-[220px] text-xs leading-relaxed text-gray-500">
+        Pick your favorites and check out before the batch cutoff.
+      </p>
+    </div>
+   
+
+    <div class="relative z-10 text-center">
+         
+  
+
+    <div class="mx-auto mb-7 flex h-24 w-24 items-center justify-center rounded-full bg-white text-4xl text-[#168844] shadow-sm">
+        
+       <img src="/location-home.png" alt="">
+      </div>
+
+      <h3 class="mb-2 text-lg font-semibold text-gray-900">
+        Pick up on campus
+      </h3>
+
+      <p class="mx-auto max-w-[220px] text-xs leading-relaxed text-gray-500">
+        Collect your order at the designated pickup point during your scheduled window.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+<section class="bg-white px-6 py-16 md:px-12 lg:px-20">
+  
+  <div class="mx-auto mb-10 max-w-2xl text-center">
+    
+    <div class="mb-4 flex items-center justify-center gap-2 text-[10px] font-medium text-gray-700">
+      <span class="flex h-6 w-6 items-center justify-center rounded-full border border-gray-300 text-green-700">
+        ✦
+      </span>
+      WHY CHOOSE US
+    </div>
+
+    <h2 class="font-serif text-4xl font-semibold leading-tight text-[#075c32] md:text-5xl">
+      A better way to <br />
+      eat on campus.
+    </h2>
+
+    <p class="mt-4 text-sm text-gray-500">
+      Local favorites, transparent pricing and a pickup that fits your day.
+    </p>
+  </div>
+
+  <div class="grid gap-4 md:grid-cols-2 lg:gap-5">
+
+    <div class="overflow-hidden  rounded-2xl border border-gray-200 bg-white">
+      <img class="h-64 md:h-72 w-full object-cover" src="/delevary1.png" alt="">
+    
+
+      <div class="p-4 pb-5 md:p-6">
+        <h3 class="mb-2 text-base font-bold text-[#20382d]">
+          More Affordable & True Zero-Fee Membership
+        </h3>
+
+        <p class="text-sm leading-relaxed text-gray-500">
+          With the text: Members enjoy <strong>$0 delivery fees, $0 service fees, and zero tipping</strong>
+          —the price you see is the exact price you pay, with no surprise charges at checkout.
+          Our members pay a simple, transparent flat rate of <strong>$1.99 per drop.</strong>
+          Best of all, at just <strong>$2.99/month</strong>, our campus pass costs
+          <strong>70% less</strong> than major delivery subscriptions ($9.99/month).
+        </p>
+      </div>
+    </div>
+
+    <div class="overflow-hidden rounded-2xl border border-gray-200 bg-white">
+      
+      <img class="h-64 md:h-72 w-full object-cover" src="/delevary.png" alt="">
+
+      <div class="p-4 pb-5 md:p-6">
+        <h3 class="mb-2 text-base font-bold text-[#20382d]">
+          Rock-Solid Reliability & On-Time Delivery
+        </h3>
+
+        <p class="text-sm leading-relaxed text-gray-500">
+          Tired of delivery apps quoting fast ETAs before checkout, only to constantly
+          push back your delivery time after you pay? BatchBox operates on fixed,
+          optimized routes with dedicated drivers to deliver rock-solid reliability—
+          ensuring your food and drinks arrive fresh and ready, right at
+          <strong>your scheduled pickup window.</strong>
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<section class="w-full bg-[#f7faf8] px-5 py-10 sm:px-8 lg:px-12">
+  <div class="max-w-[1150px] mx-auto bg-[#edf3e9] rounded-2xl p-6 sm:p-8 lg:p-6">
+
+    <div class="grid grid-cols-1 lg:grid-cols-[1.45fr_1fr] gap-8 lg:gap-12 items-center">
+
+      <div>
+        <div class="flex items-center gap-2 mb-4">
+          <span class="w-1 h-1 rounded-full bg-[#198b4d]"></span>
+          <span class="text-[9px] font-medium text-[#263d32]">
+            BATCHBOX MEMBERSHIP
+          </span>
+        </div>
+
+        <h2 class="font-serif text-[30px] sm:text-[36px] lg:text-[38px] leading-[1.2] font-bold text-[#10452d]">
+          More of what you love.
+          <br />
+          <span class="text-[#198b4d]">Fewer extra fees.</span>
+        </h2>
+
+        <p class="text-[12px] sm:text-[13px] leading-[1.5] text-[#68786f] mt-3 max-w-[440px]">
+          Explore the 3-month founder offer, with $0 delivery on qualifying
+          member orders. Then choose $2.99/month or $19.99/year. $0 delivery
+          applies to qualifying member orders; other fees are shown before payment.
+        </p>
+
+        <a
+          href="#"
+          class="inline-flex items-center gap-3 bg-[#198b4d] text-white text-[10px] font-medium px-4 py-2.5 rounded-md mt-5"
+        >
+          See membership details
+          <span>→</span>
+        </a>
+      </div>
+
+      <div class="bg-[#103f2e] text-white rounded-2xl p-6 sm:p-8 min-h-[220px] flex flex-col justify-center">
+
+        <h3 class="text-6xl sm:text-7xl font-bold tracking-tight">
+          $0
+        </h3>
+
+        <h4 class="text-xl sm:text-2xl font-bold leading-snug mt-5">
+          delivery on qualifying
+          <br class="hidden sm:block" />
+          orders
+        </h4>
+
+        <p class="text-[11px] sm:text-xs leading-[1.4] mt-3 text-gray-100">
+          Small-order and non-member fees may apply.
+          Review the full total before paying.
+        </p>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="w-full bg-white py-16 px-5 sm:px-8 lg:px-12">
+  <div class="max-w-[1150px] mx-auto">
+
+    <div class="text-center mb-10">
+      <div class="flex items-center justify-center gap-2 mb-3">
+        <span class="w-5 h-5 rounded-full border border-gray-300 flex items-center justify-center">
+          <span class="text-green-700 text-xs">◆</span>
+        </span>
+        <span class="text-[10px] font-medium text-gray-700">
+          TESTIMONIALS
+        </span>
+      </div>
+
+      <h2 class="font-serif text-3xl sm:text-4xl lg:text-[40px] leading-tight font-bold text-[#10452d]">
+        Why Students
+        <br />
+        <span class="text-[#219653]">Love us</span>
+      </h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+
+      <div class="rounded-[22px] border border-gray-100 p-6 sm:p-7">
+        <div class="flex items-center justify-between gap-3 mb-5">
+          <div class="ml-3">
+            <h3 class="text-sm font-medium text-[#263b32]">Alex Martin</h3>
+            <p class="text-[10px] text-gray-500 mt-0.5">CTO, Sara Fashion</p>
+          </div>
+
+          <span class="text-[10px] text-gray-600 bg-gray-50 rounded-full px-2 py-1">
+            <span class="text-green-600">★</span> 4.9/5
+          </span>
+        </div>
+
+        <p class="text-[13px] leading-[1.4] text-[#64756c]">
+          These videos completely changed our ads performance.
+          We saw over 1.2M views and generated $18,000 in sales
+          within the first month. Highly recommend!
+        </p>
+      </div>
+
+      <div class="rounded-[22px] border border-gray-100 p-6 sm:p-7">
+        <div class="flex items-center justify-between gap-3 mb-5">
+          <div class="ml-3">
+            <h3 class="text-sm font-medium text-[#263b32]">Collins Amy</h3>
+            <p class="text-[10px] text-gray-500 mt-0.5">CTO, Fitness Gym</p>
+          </div>
+
+          <span class="text-[10px] text-gray-600 bg-gray-50 rounded-full px-2 py-1">
+            <span class="text-green-600">★</span> 4.9/5
+          </span>
+        </div>
+
+        <p class="text-[13px] leading-[1.4] text-[#64756c]">
+          Exactly what we needed for TikTok growth. Super high-quality
+          and authentic content. The content reached 850K+ views and
+          helped us achieve $12,500 in revenue in just 60 days.
+        </p>
+      </div>
+
+      <div class="rounded-[22px] border border-gray-100 p-6 sm:p-7">
+        <div class="flex items-center justify-between gap-3 mb-5">
+          <div class="ml-3">
+            <h3 class="text-sm font-medium text-[#263b32]">Robert Jony</h3>
+            <p class="text-[10px] text-gray-500 mt-0.5">CTO, Financial</p>
+          </div>
+
+          <span class="text-[10px] text-gray-600 bg-gray-50 rounded-full px-2 py-1">
+            <span class="text-green-600">★</span> 4.9/5
+          </span>
+        </div>
+
+        <p class="text-[13px] leading-[1.4] text-[#64756c]">
+          Our best-performing ads so far. These videos generated
+          640K views and brought in $9,800 in sales quickly.
+          Super high-quality and authentic content.
+        </p>
+      </div>
+
+      <div class="rounded-[22px] border border-gray-100 p-6 sm:p-7">
+        <div class="flex items-center justify-between gap-3 mb-5">
+          <div class="ml-3">
+            <h3 class="text-sm font-medium text-[#263b32]">Eva kanvin</h3>
+            <p class="text-[10px] text-gray-500 mt-0.5">CTO, Artist Mackup</p>
+          </div>
+
+          <span class="text-[10px] text-gray-600 bg-gray-50 rounded-full px-2 py-1">
+            <span class="text-green-600">★</span> 4.9/5
+          </span>
+        </div>
+
+        <p class="text-[13px] leading-[1.4] text-[#64756c]">
+          We finally found content that works. Highly professional
+          and results-driven. Their videos helped us hit 1.8M views
+          and $27,000 in total sales.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section class="bg-[#f7faf8] py-16 px-6 md:px-10 lg:px-16">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[0.85fr_1.65fr] gap-10 lg:gap-16">
+
+    <div>
+      <div class="flex items-center gap-2 mb-5">
+        <span class="w-6 h-6 rounded-full border border-dotted border-[#16854d] flex items-center justify-center">
+          <span class="text-[#16854d] text-xs">◆</span>
+        </span>
+
+        <span class="text-[10px] font-medium text-[#243b30] uppercase tracking-wide">
+          Before your first order
+        </span>
+      </div>
+
+      <h2 class="font-serif text-4xl md:text-5xl font-semibold leading-[1.12] tracking-tight text-[#064a2a]">
+        A few things,<br>
+        <span class="text-[#198b50]">answered.</span>
+      </h2>
+    </div>
+
+    <div class="space-y-2.5">
+
+      <div class="bg-white border border-[#e5eee8] rounded-md px-3 py-2.5">
+        <div class="flex items-center justify-between">
+          <h3 class="text-sm font-semibold text-[#172d24]">
+            Is delivery on demand?
+          </h3>
+          <span class="text-xl text-[#17234b] leading-none">−</span>
+        </div>
+
+        <p class="text-[11px] leading-7 text-[#718078] mt-1">
+          BatchBox uses scheduled batches. Check the order cutoff, pickup
+          window and campus drop zone before placing your order.
+        </p>
+      </div>
+
+      <div class="bg-white border border-[#e5eee8] rounded-md px-3 py-2.5">
+        <div class="flex items-center justify-between">
+          <h3 class="text-sm font-medium text-[#172d24]">
+            Can I order from more than one store?
+          </h3>
+          <span class="text-xl text-[#17234b] leading-none">+</span>
+        </div>
+      </div>
+
+      <div class="bg-white border border-[#e5eee8] rounded-md px-3 py-2.5">
+        <div class="flex items-center justify-between">
+          <h3 class="text-sm font-medium text-[#172d24]">
+            How do delivery fees work?
+          </h3>
+          <span class="text-xl text-[#17234b] leading-none">+</span>
+        </div>
+      </div>
+
+      <div class="bg-white border border-[#e5eee8] rounded-md px-3 py-2.5">
+        <div class="flex items-center justify-between">
+          <h3 class="text-sm font-medium text-[#172d24]">
+            Do I need Premium?
+          </h3>
+          <span class="text-xl text-[#17234b] leading-none">+</span>
+        </div>
+      </div>
+
+      <div class="bg-white border border-[#e5eee8] rounded-md px-3 py-2.5">
+        <div class="flex items-center justify-between">
+          <h3 class="text-sm font-medium text-[#172d24]">
+            What if my campus is not listed?
+          </h3>
+          <span class="text-xl text-[#17234b] leading-none">+</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="px-5 py-5 md:px-8 bg-white">
+
+  <div class="max-w-6xl mx-auto bg-[#e2eee7] rounded-xl px-6 py-10 md:px-10 md:py-12">
+
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
+
+      <div class="max-w-md">
+
+        <div class="flex items-center gap-2 mb-3">
+          <span class="w-4 h-4 rounded-full border border-dotted border-[#16854d] flex items-center justify-center">
+            <span class="text-[#16854d] text-[8px]">◆</span>
+          </span>
+
+          <span class="text-[8px] uppercase font-medium tracking-wide text-[#263d31]">
+            Bring BatchBox to your campus
+          </span>
+        </div>
+
+        <h2 class="font-serif text-3xl md:text-[30px] leading-[1.15] font-semibold text-[#06452a]">
+          Not on your<br>
+          <span class="text-[#198b50]">campus yet?</span>
+        </h2>
+
+        <p class="text-[10px] leading-[1.5] text-[#708078] mt-3 max-w-[260px]">
+          Request your campus or suggest a local store for a future batch.
+        </p>
+
+      </div>
+
+      <div class="flex flex-wrap items-center gap-2">
+
+        <a href="#"
+          class="flex items-center gap-2 bg-[#16864d] text-white text-[9px] font-medium px-3 py-2 rounded-sm cursor-pointer">
+          Request my campus
+          <span>→</span>
+        </a>
+
+        <a href="#"
+          class="inline-flex items-center gap-2 border border-[#16864d] text-[#16864d] text-[9px] font-medium px-3 py-2 rounded-sm cursor-pointer">
+          Suggest a store
+          <span>→</span>
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
 
 
@@ -104,13 +1251,76 @@ one scheduled delivery to your campus drop zone.</p>
 
 
 
+  <footer class="w-full bg-[#0b3023] text-white px-5 sm:px-8 lg:px-12 py-10">
+    <div class="max-w-[1150px] mx-auto">
 
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1.2fr_1.2fr_1.2fr_1fr] gap-8 lg:gap-10">
 
+        <div>
+          <a href="#" class="inline-flex items-center gap-1 mb-3">
+            <span class="text-[#159354] text-4xl font-black leading-none">B</span>
+            <span class="text-white text-base font-semibold">
+              Batch<span class="text-[#159354]">Box</span>
+            </span>
+          </a>
+
+          <p class="text-[11px] leading-[1.5] text-gray-300 max-w-[180px]">
+            Scheduled campus food and drink delivery.
+          </p>
+        </div>
+
+        <div class="border-l border-[#ffffff33] pl-4">
+          <h3 class="font-serif text-sm text-[#d6dfb9] mb-3">
+            Customer support
+          </h3>
+
+          <ul class="space-y-2 text-[11px] text-gray-300">
+            <li><a href="#" class="cursor-pointer">About us</a></li>
+            <li><a href="#" class="cursor-pointer">FAQ</a></li>
+            <li><a href="#" class="cursor-pointer">Featured stores</a></li>
+            <li><a href="#" class="cursor-pointer">Contact support</a></li>
+          </ul>
+        </div>
+
+        <div class="border-l border-[#ffffff33] pl-4">
+          <h3 class="font-serif text-sm text-[#d6dfb9] mb-3">
+            Legal & privacy
+          </h3>
+
+          <ul class="space-y-2 text-[11px] text-gray-300">
+            <li><a href="#" class="cursor-pointer">Privacy policy</a></li>
+            <li><a href="#" class="cursor-pointer">Terms of service</a></li>
+          </ul>
+        </div>
+
+        <div class="border-l border-[#ffffff33] pl-4">
+          <h3 class="font-serif text-sm text-[#d6dfb9] mb-3">
+            Follow
+          </h3>
+
+     
+            <img class="rounded-ful w-10 h-10 object-contain" src="/insta.png" alt="">
+       
+
+          <p class="text-[11px] text-gray-300 mt-2">Instagram</p>
+        </div>
+
+      </div>
+
+      <div class="border-t border-white/15 mt-5 pt-3 text-center">
+        <p class="text-[10px] text-gray-300">
+          © 2026 BatchBox. All rights reserved.
+        </p>
+      </div>
+
+    </div>
+  </footer>
 
 
 
 
 
     
+
 </body>
 </html>
